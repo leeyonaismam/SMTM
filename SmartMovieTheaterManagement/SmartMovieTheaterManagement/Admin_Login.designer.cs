@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin_Login));
             this.Back_User_Login_Button = new Bunifu.Framework.UI.BunifuFlatButton();
             this.Admin_Login_Button = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.Password = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.User_Name = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtPassword = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtContactNumber = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.Welcome_Text = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.Login_Button = new Bunifu.Framework.UI.BunifuFlatButton();
             this.Password_Icon = new System.Windows.Forms.PictureBox();
@@ -67,6 +67,7 @@
             this.Back_User_Login_Button.IconZoom = 90D;
             this.Back_User_Login_Button.IsTab = false;
             this.Back_User_Login_Button.Location = new System.Drawing.Point(519, 612);
+            this.Back_User_Login_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Back_User_Login_Button.Name = "Back_User_Login_Button";
             this.Back_User_Login_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Back_User_Login_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -78,6 +79,7 @@
             this.Back_User_Login_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Back_User_Login_Button.Textcolor = System.Drawing.Color.White;
             this.Back_User_Login_Button.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Back_User_Login_Button.Visible = false;
             // 
             // Admin_Login_Button
             // 
@@ -90,49 +92,52 @@
             this.Admin_Login_Button.ForeColor = System.Drawing.Color.White;
             this.Admin_Login_Button.isPassword = false;
             this.Admin_Login_Button.Location = new System.Drawing.Point(414, 344);
-            this.Admin_Login_Button.Margin = new System.Windows.Forms.Padding(7);
+            this.Admin_Login_Button.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.Admin_Login_Button.Name = "Admin_Login_Button";
             this.Admin_Login_Button.Size = new System.Drawing.Size(437, 50);
             this.Admin_Login_Button.TabIndex = 36;
             this.Admin_Login_Button.Text = "Admin Login";
             this.Admin_Login_Button.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Password
+            // txtPassword
             // 
-            this.Password.BorderColorFocused = System.Drawing.Color.White;
-            this.Password.BorderColorIdle = System.Drawing.Color.White;
-            this.Password.BorderColorMouseHover = System.Drawing.Color.White;
-            this.Password.BorderThickness = 3;
-            this.Password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.Password.ForeColor = System.Drawing.Color.White;
-            this.Password.isPassword = true;
-            this.Password.Location = new System.Drawing.Point(481, 477);
-            this.Password.Margin = new System.Windows.Forms.Padding(4);
-            this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(370, 54);
-            this.Password.TabIndex = 35;
-            this.Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtPassword.BorderColorFocused = System.Drawing.Color.White;
+            this.txtPassword.BorderColorIdle = System.Drawing.Color.White;
+            this.txtPassword.BorderColorMouseHover = System.Drawing.Color.White;
+            this.txtPassword.BorderThickness = 3;
+            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txtPassword.ForeColor = System.Drawing.Color.White;
+            this.txtPassword.isPassword = true;
+            this.txtPassword.Location = new System.Drawing.Point(481, 477);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(370, 54);
+            this.txtPassword.TabIndex = 35;
+            this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // User_Name
+            // txtContactNumber
             // 
-            this.User_Name.BorderColorFocused = System.Drawing.Color.White;
-            this.User_Name.BorderColorIdle = System.Drawing.Color.White;
-            this.User_Name.BorderColorMouseHover = System.Drawing.Color.White;
-            this.User_Name.BorderThickness = 3;
-            this.User_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.User_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.User_Name.ForeColor = System.Drawing.Color.White;
-            this.User_Name.isPassword = false;
-            this.User_Name.Location = new System.Drawing.Point(481, 405);
-            this.User_Name.Margin = new System.Windows.Forms.Padding(4);
-            this.User_Name.Name = "User_Name";
-            this.User_Name.Size = new System.Drawing.Size(370, 54);
-            this.User_Name.TabIndex = 34;
-            this.User_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtContactNumber.BorderColorFocused = System.Drawing.Color.White;
+            this.txtContactNumber.BorderColorIdle = System.Drawing.Color.White;
+            this.txtContactNumber.BorderColorMouseHover = System.Drawing.Color.White;
+            this.txtContactNumber.BorderThickness = 3;
+            this.txtContactNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txtContactNumber.ForeColor = System.Drawing.Color.White;
+            this.txtContactNumber.isPassword = false;
+            this.txtContactNumber.Location = new System.Drawing.Point(481, 405);
+            this.txtContactNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContactNumber.Name = "txtContactNumber";
+            this.txtContactNumber.Size = new System.Drawing.Size(370, 54);
+            this.txtContactNumber.TabIndex = 34;
+            this.txtContactNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // Welcome_Text
             // 
+            this.Welcome_Text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Welcome_Text.BorderColorFocused = System.Drawing.Color.White;
             this.Welcome_Text.BorderColorIdle = System.Drawing.Color.White;
             this.Welcome_Text.BorderColorMouseHover = System.Drawing.Color.White;
@@ -142,8 +147,9 @@
             this.Welcome_Text.ForeColor = System.Drawing.Color.White;
             this.Welcome_Text.isPassword = false;
             this.Welcome_Text.Location = new System.Drawing.Point(414, 280);
-            this.Welcome_Text.Margin = new System.Windows.Forms.Padding(7);
+            this.Welcome_Text.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.Welcome_Text.Name = "Welcome_Text";
+            this.Welcome_Text.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Welcome_Text.Size = new System.Drawing.Size(437, 50);
             this.Welcome_Text.TabIndex = 33;
             this.Welcome_Text.Text = "SMART MOVIE THEATER MANAGEMENT";
@@ -171,6 +177,7 @@
             this.Login_Button.IconZoom = 90D;
             this.Login_Button.IsTab = false;
             this.Login_Button.Location = new System.Drawing.Point(519, 549);
+            this.Login_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Login_Button.Name = "Login_Button";
             this.Login_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Login_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -182,6 +189,7 @@
             this.Login_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Login_Button.Textcolor = System.Drawing.Color.White;
             this.Login_Button.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login_Button.Click += new System.EventHandler(this.Login_Button_Click);
             // 
             // Password_Icon
             // 
@@ -238,8 +246,8 @@
             this.Controls.Add(this.Exit_Button);
             this.Controls.Add(this.Back_User_Login_Button);
             this.Controls.Add(this.Admin_Login_Button);
-            this.Controls.Add(this.Password);
-            this.Controls.Add(this.User_Name);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtContactNumber);
             this.Controls.Add(this.Welcome_Text);
             this.Controls.Add(this.Login_Button);
             this.Controls.Add(this.Password_Icon);
@@ -259,8 +267,8 @@
 
         private Bunifu.Framework.UI.BunifuFlatButton Back_User_Login_Button;
         private Bunifu.Framework.UI.BunifuMetroTextbox Admin_Login_Button;
-        private Bunifu.Framework.UI.BunifuMetroTextbox Password;
-        private Bunifu.Framework.UI.BunifuMetroTextbox User_Name;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtPassword;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtContactNumber;
         private Bunifu.Framework.UI.BunifuMetroTextbox Welcome_Text;
         private Bunifu.Framework.UI.BunifuFlatButton Login_Button;
         private System.Windows.Forms.PictureBox Password_Icon;
