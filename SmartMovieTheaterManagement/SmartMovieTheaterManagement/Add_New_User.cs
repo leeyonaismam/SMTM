@@ -36,7 +36,7 @@ namespace SMARTMOVIETHEATERMANAGEMENT
 
         private void SaveContact(string contactNumber, string password)
         {
-            string folderPath = @"C:\SMTM\Users"; // Change the folder path as needed
+            string folderPath = @"C:\SMTM\Users\"+contactNumber; // Change the folder path as needed
             Directory.CreateDirectory(folderPath);
 
             string filePath = Path.Combine(folderPath, contactNumber + ".txt");

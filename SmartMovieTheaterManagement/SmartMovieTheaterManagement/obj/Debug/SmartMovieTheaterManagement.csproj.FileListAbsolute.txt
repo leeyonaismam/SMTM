@@ -22,3 +22,6 @@ E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMov
 E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SmartMovieTheaterManagement.csproj.GenerateResource.cache
 E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SmartMovieTheaterManagement.csproj.CoreCompileInputs.cache
 E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SmartMovieTheaterManagement.csproj.CopyComplete
+D:\Smart Movie Theater Management\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Add_New_User.resources
+D:\Smart Movie Theater Management\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Add_Theater.resources
+D:\Smart Movie Theater Management\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Admin_Panel.resources

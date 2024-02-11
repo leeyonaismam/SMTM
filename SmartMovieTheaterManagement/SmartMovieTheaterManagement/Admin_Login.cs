@@ -46,6 +46,9 @@ namespace SMARTMOVIETHEATERMANAGEMENT
                         if (enteredContactNumber == storedContactNumber && enteredPassword == storedPassword)
                         {
                             MessageBox.Show("Login successful!");
+                            Admin_Panel Admin_Panel = new Admin_Panel();
+                            Admin_Panel.Show();
+                            this.Hide();
                         }
                         else
                         {
@@ -68,6 +71,7 @@ namespace SMARTMOVIETHEATERMANAGEMENT
         {
             string folderPath = @"C:\SMTM\Admin";
             string[] files = Directory.GetFiles(folderPath, fileName, SearchOption.AllDirectories);
+            Console.WriteLine(files);
             if (files.Length > 0)
             {
                 return files[0]; // Assuming only one file with the given name exists
