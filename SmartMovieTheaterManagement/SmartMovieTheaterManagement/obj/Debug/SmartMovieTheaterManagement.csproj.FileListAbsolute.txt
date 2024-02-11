@@ -25,3 +25,6 @@ E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMov
 D:\Smart Movie Theater Management\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Add_New_User.resources
 D:\Smart Movie Theater Management\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Add_Theater.resources
 D:\Smart Movie Theater Management\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Admin_Panel.resources
+E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Add_Theater.resources
+E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Admin_Panel.resources
+E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.User_Login.resources
