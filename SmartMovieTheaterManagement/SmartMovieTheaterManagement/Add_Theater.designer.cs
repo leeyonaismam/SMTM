@@ -29,32 +29,32 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_Theater));
-            this.Contact_Theater = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtContact = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.Add_Theater_Button = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.Location = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.Theater_Name = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtLocation = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtTheaterName = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Admin_Panel = new Bunifu.Framework.UI.BunifuFlatButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Contact_Theater
+            // txtContact
             // 
-            this.Contact_Theater.BorderColorFocused = System.Drawing.Color.White;
-            this.Contact_Theater.BorderColorIdle = System.Drawing.Color.White;
-            this.Contact_Theater.BorderColorMouseHover = System.Drawing.Color.White;
-            this.Contact_Theater.BorderThickness = 3;
-            this.Contact_Theater.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Contact_Theater.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.Contact_Theater.ForeColor = System.Drawing.Color.White;
-            this.Contact_Theater.isPassword = false;
-            this.Contact_Theater.Location = new System.Drawing.Point(391, 373);
-            this.Contact_Theater.Margin = new System.Windows.Forms.Padding(4);
-            this.Contact_Theater.Name = "Contact_Theater";
-            this.Contact_Theater.Size = new System.Drawing.Size(472, 54);
-            this.Contact_Theater.TabIndex = 53;
-            this.Contact_Theater.Text = "Contact";
-            this.Contact_Theater.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtContact.BorderColorFocused = System.Drawing.Color.White;
+            this.txtContact.BorderColorIdle = System.Drawing.Color.White;
+            this.txtContact.BorderColorMouseHover = System.Drawing.Color.White;
+            this.txtContact.BorderThickness = 3;
+            this.txtContact.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtContact.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txtContact.ForeColor = System.Drawing.Color.White;
+            this.txtContact.isPassword = false;
+            this.txtContact.Location = new System.Drawing.Point(521, 459);
+            this.txtContact.Margin = new System.Windows.Forms.Padding(5);
+            this.txtContact.Name = "txtContact";
+            this.txtContact.Size = new System.Drawing.Size(629, 66);
+            this.txtContact.TabIndex = 53;
+            this.txtContact.Text = "Contact";
+            this.txtContact.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // Add_Theater_Button
             // 
@@ -77,61 +77,64 @@
             this.Add_Theater_Button.IconVisible = true;
             this.Add_Theater_Button.IconZoom = 90D;
             this.Add_Theater_Button.IsTab = false;
-            this.Add_Theater_Button.Location = new System.Drawing.Point(519, 525);
+            this.Add_Theater_Button.Location = new System.Drawing.Point(692, 646);
+            this.Add_Theater_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Add_Theater_Button.Name = "Add_Theater_Button";
             this.Add_Theater_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Add_Theater_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.Add_Theater_Button.OnHoverTextColor = System.Drawing.Color.LightSalmon;
             this.Add_Theater_Button.selected = false;
-            this.Add_Theater_Button.Size = new System.Drawing.Size(229, 48);
+            this.Add_Theater_Button.Size = new System.Drawing.Size(305, 59);
             this.Add_Theater_Button.TabIndex = 49;
             this.Add_Theater_Button.Text = "Add Theater";
             this.Add_Theater_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Add_Theater_Button.Textcolor = System.Drawing.Color.White;
             this.Add_Theater_Button.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_Theater_Button.Click += new System.EventHandler(this.Add_Theater_Button_Click);
             // 
-            // Location
+            // txtLocation
             // 
-            this.Location.BorderColorFocused = System.Drawing.Color.White;
-            this.Location.BorderColorIdle = System.Drawing.Color.White;
-            this.Location.BorderColorMouseHover = System.Drawing.Color.White;
-            this.Location.BorderThickness = 3;
-            this.Location.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Location.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.Location.ForeColor = System.Drawing.Color.White;
-            this.Location.isPassword = false;
-            this.Location.Location = new System.Drawing.Point(391, 451);
-            this.Location.Margin = new System.Windows.Forms.Padding(4);
-            this.Location.Name = "Location";
-            this.Location.Size = new System.Drawing.Size(472, 54);
-            this.Location.TabIndex = 52;
-            this.Location.Text = "Location";
-            this.Location.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtLocation.BorderColorFocused = System.Drawing.Color.White;
+            this.txtLocation.BorderColorIdle = System.Drawing.Color.White;
+            this.txtLocation.BorderColorMouseHover = System.Drawing.Color.White;
+            this.txtLocation.BorderThickness = 3;
+            this.txtLocation.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtLocation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txtLocation.ForeColor = System.Drawing.Color.White;
+            this.txtLocation.isPassword = false;
+            this.txtLocation.Location = new System.Drawing.Point(521, 555);
+            this.txtLocation.Margin = new System.Windows.Forms.Padding(5);
+            this.txtLocation.Name = "txtLocation";
+            this.txtLocation.Size = new System.Drawing.Size(629, 66);
+            this.txtLocation.TabIndex = 52;
+            this.txtLocation.Text = "Location";
+            this.txtLocation.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // Theater_Name
+            // txtTheaterName
             // 
-            this.Theater_Name.BorderColorFocused = System.Drawing.Color.White;
-            this.Theater_Name.BorderColorIdle = System.Drawing.Color.White;
-            this.Theater_Name.BorderColorMouseHover = System.Drawing.Color.White;
-            this.Theater_Name.BorderThickness = 3;
-            this.Theater_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Theater_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.Theater_Name.ForeColor = System.Drawing.Color.White;
-            this.Theater_Name.isPassword = false;
-            this.Theater_Name.Location = new System.Drawing.Point(391, 293);
-            this.Theater_Name.Margin = new System.Windows.Forms.Padding(4);
-            this.Theater_Name.Name = "Theater_Name";
-            this.Theater_Name.Size = new System.Drawing.Size(472, 54);
-            this.Theater_Name.TabIndex = 50;
-            this.Theater_Name.Text = "Theater Name";
-            this.Theater_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtTheaterName.BorderColorFocused = System.Drawing.Color.White;
+            this.txtTheaterName.BorderColorIdle = System.Drawing.Color.White;
+            this.txtTheaterName.BorderColorMouseHover = System.Drawing.Color.White;
+            this.txtTheaterName.BorderThickness = 3;
+            this.txtTheaterName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTheaterName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txtTheaterName.ForeColor = System.Drawing.Color.White;
+            this.txtTheaterName.isPassword = false;
+            this.txtTheaterName.Location = new System.Drawing.Point(521, 361);
+            this.txtTheaterName.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTheaterName.Name = "txtTheaterName";
+            this.txtTheaterName.Size = new System.Drawing.Size(629, 66);
+            this.txtTheaterName.TabIndex = 50;
+            this.txtTheaterName.Text = "Theater Name";
+            this.txtTheaterName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(519, 41);
+            this.pictureBox1.Location = new System.Drawing.Point(692, 50);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(229, 232);
+            this.pictureBox1.Size = new System.Drawing.Size(305, 286);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 51;
             this.pictureBox1.TabStop = false;
@@ -157,13 +160,14 @@
             this.Admin_Panel.IconVisible = true;
             this.Admin_Panel.IconZoom = 90D;
             this.Admin_Panel.IsTab = false;
-            this.Admin_Panel.Location = new System.Drawing.Point(519, 593);
+            this.Admin_Panel.Location = new System.Drawing.Point(692, 730);
+            this.Admin_Panel.Margin = new System.Windows.Forms.Padding(5);
             this.Admin_Panel.Name = "Admin_Panel";
             this.Admin_Panel.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Admin_Panel.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.Admin_Panel.OnHoverTextColor = System.Drawing.Color.LightSalmon;
             this.Admin_Panel.selected = false;
-            this.Admin_Panel.Size = new System.Drawing.Size(229, 48);
+            this.Admin_Panel.Size = new System.Drawing.Size(305, 59);
             this.Admin_Panel.TabIndex = 54;
             this.Admin_Panel.Text = "Admin Panel";
             this.Admin_Panel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -173,16 +177,17 @@
             // 
             // Add_Theater
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(25)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1685, 838);
             this.Controls.Add(this.Admin_Panel);
-            this.Controls.Add(this.Contact_Theater);
+            this.Controls.Add(this.txtContact);
             this.Controls.Add(this.Add_Theater_Button);
-            this.Controls.Add(this.Location);
-            this.Controls.Add(this.Theater_Name);
+            this.Controls.Add(this.txtLocation);
+            this.Controls.Add(this.txtTheaterName);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Add_Theater";
             this.Text = "Add_Theater";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -192,10 +197,10 @@
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuMetroTextbox Contact_Theater;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtContact;
         private Bunifu.Framework.UI.BunifuFlatButton Add_Theater_Button;
-        private Bunifu.Framework.UI.BunifuMetroTextbox Location;
-        private Bunifu.Framework.UI.BunifuMetroTextbox Theater_Name;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtLocation;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtTheaterName;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuFlatButton Admin_Panel;
     }

@@ -13,6 +13,7 @@ namespace SMARTMOVIETHEATERMANAGEMENT
 {
     public partial class Admin_Login : Form
     {
+        public static string adminID;
         public Admin_Login()
         {
             InitializeComponent();
@@ -46,6 +47,9 @@ namespace SMARTMOVIETHEATERMANAGEMENT
                         if (enteredContactNumber == storedContactNumber && enteredPassword == storedPassword)
                         {
                             MessageBox.Show("Login successful!");
+
+                            adminID = storedContactNumber;
+
                             Admin_Panel Admin_Panel = new Admin_Panel();
                             Admin_Panel.Show();
                             this.Hide();
