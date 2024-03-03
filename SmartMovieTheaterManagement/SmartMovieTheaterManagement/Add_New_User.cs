@@ -27,6 +27,10 @@ namespace SMARTMOVIETHEATERMANAGEMENT
             {
                 SaveContact(contactNumber, password);
                 MessageBox.Show("Contact saved successfully.");
+
+                User_Login User_Login = new User_Login();
+                User_Login.Show();
+                this.Hide();
             }
             else
             {

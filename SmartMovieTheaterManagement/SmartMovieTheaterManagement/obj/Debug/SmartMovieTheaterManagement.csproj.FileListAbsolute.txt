@@ -30,3 +30,6 @@ E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMov
 E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.User_Login.resources
 D:\Smart Movie Theater Management\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.User_Login.resources
 D:\Smart Movie Theater Management\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Check_Sales.resources
+E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Check_Sales.resources
+E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.Movie_Booking.resources
+E:\Smart Movie Theater Management\SMTM\SMTM\SmartMovieTheaterManagement\SmartMovieTheaterManagement\obj\Debug\SMARTMOVIETHEATERMANAGEMENT.User_Panel.resources

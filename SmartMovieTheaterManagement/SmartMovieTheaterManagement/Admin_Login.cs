@@ -99,5 +99,12 @@ namespace SMARTMOVIETHEATERMANAGEMENT
                 return null;
             }
         }
+
+        private void Back_User_Login_Button_Click(object sender, EventArgs e)
+        {
+            User_Login User_Login = new User_Login();
+            User_Login.Show();
+            this.Hide();
+        }
     }
 }

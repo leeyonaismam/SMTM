@@ -60,6 +60,10 @@ namespace SMARTMOVIETHEATERMANAGEMENT
                         if (enteredContactNumber == storedContactNumber && enteredPassword == storedPassword)
                         {
                             MessageBox.Show("Login successful!");
+
+                            User_Panel User_Panel = new User_Panel();
+                            User_Panel.Show();
+                            this.Hide();
                         }
                         else
                         {

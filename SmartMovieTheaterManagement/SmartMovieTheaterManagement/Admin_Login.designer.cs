@@ -67,7 +67,7 @@
             this.Back_User_Login_Button.IconZoom = 90D;
             this.Back_User_Login_Button.IsTab = false;
             this.Back_User_Login_Button.Location = new System.Drawing.Point(519, 612);
-            this.Back_User_Login_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Back_User_Login_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Back_User_Login_Button.Name = "Back_User_Login_Button";
             this.Back_User_Login_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Back_User_Login_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -79,7 +79,7 @@
             this.Back_User_Login_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Back_User_Login_Button.Textcolor = System.Drawing.Color.White;
             this.Back_User_Login_Button.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Back_User_Login_Button.Visible = false;
+            this.Back_User_Login_Button.Click += new System.EventHandler(this.Back_User_Login_Button_Click);
             // 
             // Admin_Login_Button
             // 
@@ -92,7 +92,7 @@
             this.Admin_Login_Button.ForeColor = System.Drawing.Color.White;
             this.Admin_Login_Button.isPassword = false;
             this.Admin_Login_Button.Location = new System.Drawing.Point(414, 344);
-            this.Admin_Login_Button.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Admin_Login_Button.Margin = new System.Windows.Forms.Padding(7);
             this.Admin_Login_Button.Name = "Admin_Login_Button";
             this.Admin_Login_Button.Size = new System.Drawing.Size(437, 50);
             this.Admin_Login_Button.TabIndex = 36;
@@ -110,7 +110,7 @@
             this.txtPassword.ForeColor = System.Drawing.Color.White;
             this.txtPassword.isPassword = true;
             this.txtPassword.Location = new System.Drawing.Point(481, 477);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(370, 54);
             this.txtPassword.TabIndex = 35;
@@ -127,7 +127,7 @@
             this.txtContactNumber.ForeColor = System.Drawing.Color.White;
             this.txtContactNumber.isPassword = false;
             this.txtContactNumber.Location = new System.Drawing.Point(481, 405);
-            this.txtContactNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContactNumber.Margin = new System.Windows.Forms.Padding(4);
             this.txtContactNumber.Name = "txtContactNumber";
             this.txtContactNumber.Size = new System.Drawing.Size(370, 54);
             this.txtContactNumber.TabIndex = 34;
@@ -147,7 +147,7 @@
             this.Welcome_Text.ForeColor = System.Drawing.Color.White;
             this.Welcome_Text.isPassword = false;
             this.Welcome_Text.Location = new System.Drawing.Point(414, 280);
-            this.Welcome_Text.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Welcome_Text.Margin = new System.Windows.Forms.Padding(7);
             this.Welcome_Text.Name = "Welcome_Text";
             this.Welcome_Text.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Welcome_Text.Size = new System.Drawing.Size(437, 50);
@@ -177,7 +177,7 @@
             this.Login_Button.IconZoom = 90D;
             this.Login_Button.IsTab = false;
             this.Login_Button.Location = new System.Drawing.Point(519, 549);
-            this.Login_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Login_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Login_Button.Name = "Login_Button";
             this.Login_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Login_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
