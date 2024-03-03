@@ -26,8 +26,8 @@ namespace SMARTMOVIETHEATERMANAGEMENT
 
         private void Logout_Click(object sender, EventArgs e)
         {
-            User_Login User = new User_Login();
-            User.Show();
+            User_Login User_Login = new User_Login();
+            User_Login.Show();
             this.Hide();
         }
     }
