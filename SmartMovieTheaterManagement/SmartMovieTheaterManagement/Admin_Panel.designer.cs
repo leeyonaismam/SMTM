@@ -59,13 +59,14 @@
             this.Logout.IconVisible = true;
             this.Logout.IconZoom = 90D;
             this.Logout.IsTab = false;
-            this.Logout.Location = new System.Drawing.Point(1129, 12);
+            this.Logout.Location = new System.Drawing.Point(1505, 15);
+            this.Logout.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Logout.Name = "Logout";
             this.Logout.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Logout.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.Logout.OnHoverTextColor = System.Drawing.Color.White;
             this.Logout.selected = false;
-            this.Logout.Size = new System.Drawing.Size(123, 48);
+            this.Logout.Size = new System.Drawing.Size(164, 59);
             this.Logout.TabIndex = 41;
             this.Logout.Text = "Logout";
             this.Logout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -94,13 +95,14 @@
             this.Add_New_Theater.IconVisible = true;
             this.Add_New_Theater.IconZoom = 90D;
             this.Add_New_Theater.IsTab = false;
-            this.Add_New_Theater.Location = new System.Drawing.Point(244, 351);
+            this.Add_New_Theater.Location = new System.Drawing.Point(325, 432);
+            this.Add_New_Theater.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Add_New_Theater.Name = "Add_New_Theater";
             this.Add_New_Theater.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Add_New_Theater.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.Add_New_Theater.OnHoverTextColor = System.Drawing.Color.White;
             this.Add_New_Theater.selected = false;
-            this.Add_New_Theater.Size = new System.Drawing.Size(307, 114);
+            this.Add_New_Theater.Size = new System.Drawing.Size(409, 140);
             this.Add_New_Theater.TabIndex = 40;
             this.Add_New_Theater.Text = "Add New Theater";
             this.Add_New_Theater.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -112,9 +114,10 @@
             // 
             this.Add_New_Movie_Image.BackColor = System.Drawing.Color.White;
             this.Add_New_Movie_Image.Image = ((System.Drawing.Image)(resources.GetObject("Add_New_Movie_Image.Image")));
-            this.Add_New_Movie_Image.Location = new System.Drawing.Point(340, 245);
+            this.Add_New_Movie_Image.Location = new System.Drawing.Point(453, 302);
+            this.Add_New_Movie_Image.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Add_New_Movie_Image.Name = "Add_New_Movie_Image";
-            this.Add_New_Movie_Image.Size = new System.Drawing.Size(113, 100);
+            this.Add_New_Movie_Image.Size = new System.Drawing.Size(151, 123);
             this.Add_New_Movie_Image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Add_New_Movie_Image.TabIndex = 39;
             this.Add_New_Movie_Image.TabStop = false;
@@ -141,41 +144,45 @@
             this.Check_Info.IconVisible = true;
             this.Check_Info.IconZoom = 90D;
             this.Check_Info.IsTab = false;
-            this.Check_Info.Location = new System.Drawing.Point(738, 351);
+            this.Check_Info.Location = new System.Drawing.Point(984, 432);
+            this.Check_Info.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Check_Info.Name = "Check_Info";
             this.Check_Info.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Check_Info.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.Check_Info.OnHoverTextColor = System.Drawing.Color.White;
             this.Check_Info.selected = false;
-            this.Check_Info.Size = new System.Drawing.Size(305, 114);
+            this.Check_Info.Size = new System.Drawing.Size(406, 140);
             this.Check_Info.TabIndex = 45;
             this.Check_Info.Text = "Check Booking";
             this.Check_Info.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Check_Info.Textcolor = System.Drawing.Color.White;
             this.Check_Info.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Check_Info.Click += new System.EventHandler(this.Check_Info_Click);
             // 
             // Check_Picture
             // 
             this.Check_Picture.BackColor = System.Drawing.Color.White;
             this.Check_Picture.Image = ((System.Drawing.Image)(resources.GetObject("Check_Picture.Image")));
-            this.Check_Picture.Location = new System.Drawing.Point(831, 245);
+            this.Check_Picture.Location = new System.Drawing.Point(1108, 302);
+            this.Check_Picture.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Check_Picture.Name = "Check_Picture";
-            this.Check_Picture.Size = new System.Drawing.Size(113, 100);
+            this.Check_Picture.Size = new System.Drawing.Size(151, 123);
             this.Check_Picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Check_Picture.TabIndex = 44;
             this.Check_Picture.TabStop = false;
             // 
             // Admin_Panel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(25)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1685, 838);
             this.Controls.Add(this.Check_Info);
             this.Controls.Add(this.Check_Picture);
             this.Controls.Add(this.Logout);
             this.Controls.Add(this.Add_New_Theater);
             this.Controls.Add(this.Add_New_Movie_Image);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Admin_Panel";
             this.Text = "Admin_Panel";
             ((System.ComponentModel.ISupportInitialize)(this.Add_New_Movie_Image)).EndInit();
