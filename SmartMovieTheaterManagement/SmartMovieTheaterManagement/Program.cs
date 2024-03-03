@@ -17,7 +17,7 @@ namespace SmartMovieTheaterManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new User_Login());
+            Application.Run(new Admin_Login());
         }
     }
 }
