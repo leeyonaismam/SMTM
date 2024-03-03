@@ -37,5 +37,12 @@ namespace SMARTMOVIETHEATERMANAGEMENT
             Check_Sales.Show();
             this.Hide();
         }
+
+        private void ManageTheater_Click(object sender, EventArgs e)
+        {
+            Add_Movie Add_Movie = new Add_Movie();
+            Add_Movie.Show();
+            this.Hide();
+        }
     }
 }

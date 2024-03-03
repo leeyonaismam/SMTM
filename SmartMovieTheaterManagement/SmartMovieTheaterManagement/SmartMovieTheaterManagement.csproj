@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Movie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Movie.designer.cs">
+      <DependentUpon>Add_Movie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Add_New_User.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     <Compile Include="User_Panel.designer.cs">
       <DependentUpon>User_Panel.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Add_Movie.resx">
+      <DependentUpon>Add_Movie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add_New_User.resx">
       <DependentUpon>Add_New_User.cs</DependentUpon>
     </EmbeddedResource>
