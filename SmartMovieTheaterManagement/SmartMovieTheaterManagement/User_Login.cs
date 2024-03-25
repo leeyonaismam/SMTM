@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -39,76 +40,37 @@ namespace SMARTMOVIETHEATERMANAGEMENT
 
         private void Login_Button_Click(object sender, EventArgs e)
         {
-            string fileName = txtContactNumber.Text.Trim();
+            string enteredContactNumber = txtContactNumber.Text.Trim();
+            string enteredPassword = txtPassword.Text.Trim();
 
-            if (!string.IsNullOrEmpty(fileName))
+            ReadCredentials(enteredContactNumber, enteredPassword);
+        }
+
+        private void ReadCredentials(string username, string password)
+        {
+            string filePath = @"C:\SMTM\Users\UserRegistration.txt";
+            try
             {
-                string filePath = SearchFile(fileName + ".txt");
-
-                if (!string.IsNullOrEmpty(filePath))
+                string[] lines = File.ReadAllLines(filePath);
+                foreach(string line in lines)
                 {
-                    string[] credentials = ReadCredentials(filePath);
-
-                    if (credentials != null)
+                    string[] parts = line.Split(':');
+                    if (parts[0].Trim() == username && parts[1].Trim() == password) 
                     {
-                        string storedContactNumber = credentials[0];
-                        string storedPassword = credentials[1];
+                        MessageBox.Show(username + password);
+                        MessageBox.Show("Login successful!");
 
-                        string enteredContactNumber = txtContactNumber.Text.Trim();
-                        string enteredPassword = txtPassword.Text.Trim();
-
-                        if (enteredContactNumber == storedContactNumber && enteredPassword == storedPassword)
-                        {
-                            MessageBox.Show("Login successful!");
-
-                            User_Panel User_Panel = new User_Panel();
-                            User_Panel.Show();
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Invalid contact number or password. Login failed.");
-                        }
+                        User_Panel User_Panel = new User_Panel();
+                        User_Panel.Show();
+                        this.Hide();
                     }
                 }
-                else
-                {
-                    MessageBox.Show("User Doesn't Exist");
-                }
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Please Enter A Contact Number");
+                MessageBox.Show("Error reading file.");
+                return;
             }
         }
-
-            private string SearchFile(string fileName)
-            {
-                string folderPath = @"C:\SMTM\Users";
-                string[] files = Directory.GetFiles(folderPath, fileName, SearchOption.AllDirectories);
-                Console.WriteLine(files);
-                if (files.Length > 0)
-                {
-                    return files[0]; // Assuming only one file with the given name exists
-                }
-                else
-                {
-                    return null;
-                }
-            }
-
-            private string[] ReadCredentials(string filePath)
-            {
-                try
-                {
-                    string[] lines = File.ReadAllLines(filePath);
-                    return lines;
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Error reading file.");
-                    return null;
-                }
-            }
-        }
+    }
 }

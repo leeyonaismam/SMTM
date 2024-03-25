@@ -60,7 +60,7 @@
             this.Manage_Theater_Panel.IconZoom = 90D;
             this.Manage_Theater_Panel.IsTab = false;
             this.Manage_Theater_Panel.Location = new System.Drawing.Point(699, 654);
-            this.Manage_Theater_Panel.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Manage_Theater_Panel.Margin = new System.Windows.Forms.Padding(5);
             this.Manage_Theater_Panel.Name = "Manage_Theater_Panel";
             this.Manage_Theater_Panel.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Manage_Theater_Panel.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -96,7 +96,7 @@
             this.Add_Movie_Button.IconZoom = 90D;
             this.Add_Movie_Button.IsTab = false;
             this.Add_Movie_Button.Location = new System.Drawing.Point(699, 570);
-            this.Add_Movie_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Add_Movie_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Add_Movie_Button.Name = "Add_Movie_Button";
             this.Add_Movie_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Add_Movie_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -121,7 +121,7 @@
             this.Movie_Name.ForeColor = System.Drawing.Color.White;
             this.Movie_Name.isPassword = false;
             this.Movie_Name.Location = new System.Drawing.Point(528, 398);
-            this.Movie_Name.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Movie_Name.Margin = new System.Windows.Forms.Padding(5);
             this.Movie_Name.Name = "Movie_Name";
             this.Movie_Name.Size = new System.Drawing.Size(629, 66);
             this.Movie_Name.TabIndex = 56;
@@ -132,7 +132,7 @@
             // 
             this.Movie_Image.Image = ((System.Drawing.Image)(resources.GetObject("Movie_Image.Image")));
             this.Movie_Image.Location = new System.Drawing.Point(699, 15);
-            this.Movie_Image.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Movie_Image.Margin = new System.Windows.Forms.Padding(4);
             this.Movie_Image.Name = "Movie_Image";
             this.Movie_Image.Size = new System.Drawing.Size(305, 286);
             this.Movie_Image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -150,7 +150,7 @@
             this.Choose_Theater_DropDown.ForeColor = System.Drawing.Color.White;
             this.Choose_Theater_DropDown.isPassword = false;
             this.Choose_Theater_DropDown.Location = new System.Drawing.Point(528, 332);
-            this.Choose_Theater_DropDown.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Choose_Theater_DropDown.Margin = new System.Windows.Forms.Padding(5);
             this.Choose_Theater_DropDown.Name = "Choose_Theater_DropDown";
             this.Choose_Theater_DropDown.Size = new System.Drawing.Size(161, 43);
             this.Choose_Theater_DropDown.TabIndex = 63;
@@ -162,7 +162,7 @@
             this.Choose_Theater.FormattingEnabled = true;
             this.Choose_Theater.ItemHeight = 16;
             this.Choose_Theater.Location = new System.Drawing.Point(699, 332);
-            this.Choose_Theater.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Choose_Theater.Margin = new System.Windows.Forms.Padding(4);
             this.Choose_Theater.MaxDropDownItems = 100;
             this.Choose_Theater.Name = "Choose_Theater";
             this.Choose_Theater.Size = new System.Drawing.Size(457, 24);
@@ -180,7 +180,7 @@
             this.Controls.Add(this.Add_Movie_Button);
             this.Controls.Add(this.Movie_Name);
             this.Controls.Add(this.Movie_Image);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Add_Movie";
             this.Text = "Add_Movie";
             ((System.ComponentModel.ISupportInitialize)(this.Movie_Image)).EndInit();
